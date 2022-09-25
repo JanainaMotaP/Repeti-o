@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repeticao cinco</title>
+    <script> 
+     
+     
+     var nota1 = parseInt(prompt("Insira a primeira nota"));
+     var nota2 = parseInt(prompt("Insira a segunda nota"));
+
+     var acumuladora = 0; // sempre igual a 0, pois sempre acumula o valor dentro dela
+     var subtração = nota2- nota1;
+     var media = 0;
+
+     while (nota1 < nota2){
+        acumuladora += nota1 
+        console.log (acumuladora)
+        nota1++;
+     }
+
+     media = acumuladora/subtração; 
+     document.write (" A sua media é: " + media);
+    
+    
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
